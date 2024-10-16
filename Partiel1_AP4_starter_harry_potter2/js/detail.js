@@ -1,0 +1,1 @@
+const reponse = await fetch("https://hp-api.onrender.com/api/characters")
