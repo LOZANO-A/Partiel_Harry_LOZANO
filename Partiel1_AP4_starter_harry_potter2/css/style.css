@@ -176,15 +176,28 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 60%;
 }
 .page_perso .perso__right > div {
   display: flex;
   justify-content: space-around;
 }
-.page_perso .perso__right p.attr {
+
+.page_perso  p.attr {
+  font-weight: bold;
+  text-align: left;
+}
+.page_perso .attr{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 60%;
+}
+.page_perso .attr p{
+  text-align: center;
   font-weight: bold;
 }
+
 .page_perso figure {
   width: 215px;
   margin-right: 120px;
