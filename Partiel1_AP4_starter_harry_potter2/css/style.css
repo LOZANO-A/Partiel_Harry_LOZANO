@@ -110,7 +110,7 @@ footer p {
 }
 .houses > div {
   border-radius: 140px;
-  width: 140px;
+  width: 1400px;
   height: 140px;
   text-align: center;
 }
@@ -120,6 +120,11 @@ footer p {
 .houses img {
   width: 121px;
   height: 136px;
+}
+.houses img:hover{
+  background-color: #fff6e6;
+  border-radius: 50%;
+  transform:scale(1.1);
 }
 
 .characters {
