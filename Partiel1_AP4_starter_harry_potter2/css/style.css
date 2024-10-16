@@ -110,7 +110,7 @@ footer p {
 }
 .houses > div {
   border-radius: 140px;
-  width: 1400px;
+  width: 140px;
   height: 140px;
   text-align: center;
 }
@@ -148,6 +148,19 @@ footer p {
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+}
+
+.gryffindor img:hover{
+  border: 8px solid var(--red, #B71713);
+}
+.slytherin img:hover{
+  border: 8px solid var(--green, #124B10);
+}
+.hufflepuff img:hover{
+  border: 8px solid var(--yellow, #E1B50C);
+}
+.ravenclaw img:hover{
+  border : 8px solid var(--blue, #078CB1);
 }
 
 /* PAGE PERSO */
